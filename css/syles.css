@@ -1,6 +1,6 @@
 
 body {
-    font-family: "roboto", "sans-serif";
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff ;    
 }
@@ -17,41 +17,61 @@ a {
 }
 
 .head-logo {
-    font-family: "raleway";
+    font-family: "raleway", sans-serif;
     font-weight: 700;
-    font-size: 18;
+    font-size: 18px;
     text-transform: uppercase;
-    line-height: 1.16667;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
 
 }
 
 .logo {
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 
 .main-nav {
     font-weight: 500;
     font-size: 16;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
 }
 
-.contacts {
+.main-nav:hover,
+.main-nav:active {
+    color: #404bbf;
+}
+
+address {
     font-weight: 400;
     font-size: 16;
     font-style: normal;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
-h1 {
-    font-weight: 700;
-    font-size: 56px;
-    text-align: center;
-    line-height: 1.07143;
-    color:#ffffff ;
+.contacts-item:hover,
+.contacts-item:active {
+    color: #404bbf;
+}
+
+.main-action {
     background-color: #2E2F42;
 }
 
+.main-line {
+    font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #ffffff ;
+}
+
 .main-action-btn {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -74,7 +94,7 @@ h3 {
 h2 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.1;
 }
 
 .team-members> p, 
@@ -88,7 +108,7 @@ h2 {
     font-weight: 700;
     font-size: 18;
     text-transform: uppercase;
-    line-height: 1.16667;
+    line-height: 1.7;
     color: #ffffff;
     background-color: #2E2F42;
 }
