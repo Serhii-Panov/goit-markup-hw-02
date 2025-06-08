@@ -1,0 +1,103 @@
+
+body {
+    font-family: "roboto", "sans-serif";
+    color: #434455;
+    background-color: #ffffff ;    
+}
+
+
+ul, ol {
+    list-style-type: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #434455;
+}
+
+.head-logo {
+    font-family: "raleway";
+    font-weight: 700;
+    font-size: 18;
+    text-transform: uppercase;
+    line-height: 1.16667;
+
+}
+
+.logo {
+    color: #4D5AE5;
+}
+
+.main-nav {
+    font-weight: 500;
+    font-size: 16;
+    line-height: 1.5;
+}
+
+.contacts {
+    font-weight: 400;
+    font-size: 16;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+    line-height: 1.07143;
+    color:#ffffff ;
+    background-color: #2E2F42;
+}
+
+.main-action-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.standarts> p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+}
+
+.team-members> p, 
+.portfolio-items>p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer-logo {
+    font-family: "raleway";
+    font-weight: 700;
+    font-size: 18;
+    text-transform: uppercase;
+    line-height: 1.16667;
+    color: #ffffff;
+    background-color: #2E2F42;
+}
+
+footer> p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #F4F4FD;
+    background-color: #2E2F42;
+    text-align: left;
+}
+
