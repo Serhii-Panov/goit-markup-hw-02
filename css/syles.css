@@ -63,7 +63,7 @@ address {
 }
 
 .contacts-item:hover,
-.contacts-item:active {
+.contacts-item:focus {
     color: #404bbf;
 }
 
@@ -96,7 +96,10 @@ address {
     background-color: #404BBF;
 }
 
-.section-header {
+
+
+.section-header,
+.standarts-header {  /* h2*/
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
