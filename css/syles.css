@@ -98,13 +98,22 @@ address {
 
 
 
-.section-header,
-.standarts-header {  /* h2*/
+
+.standarts-header,
+.team-members-header {  /* h3*/
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:#2e2f42;
+}
+
+.section-header { /*h2*/
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+
 }
 
 .section-text {
